@@ -1,0 +1,16 @@
+{
+  "name": "fizz-buzz-js",
+  "version": "0.0.1",
+  "description": "node application that parses a string and replaces numbers that of multiples of different numbers with words",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/istanbul test ./node_modules/mocha/bin/_mocha -- specs -R spec --recursive"
+  },
+  "author": "stuart greenhall",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  }
+}
