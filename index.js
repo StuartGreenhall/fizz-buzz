@@ -9,9 +9,9 @@ function convert(aString) {
   let numbers = aString.split(onSpace);
   let luckified = FizzbuzzTransform.luckyNumbers(numbers)
   let results = FizzbuzzTransform.multiples(luckified);
+  let resultsString = results.join(" ");
   let report = FizzbuzzReport.create(results);
-  console.log(report);
-  return results.join(" ");
+  return resultsString.concat(report);
 }
 
 module.exports = {
